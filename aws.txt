@@ -1,0 +1,31 @@
+#AWS Storage:
+
+	#S3(Simple Storage Service): Object storage built to store and  retrieve any amount of data, at any time, from anywhere on the web. Its a serverless service. We dont need to worry what behides it. We need to create things called BUCKET. Upload OBJECT to BUCKET. The size of that BUCKET is theoretically unlimited.
+
+	#AWS Glacier: is cheapest storage service on AWS. Its used to long term archiving of data. Its also serverless service. Its not directly accessable. We can setup lifecycle rule that will automatically migrate old data from S3. 
+
+	#AWS EBS (Elastic Block Storage):   Low latency block storage and specifically for attaching to servers.Its similiar to attaching HardDisk. 
+
+	#AWS EFS (Elastic File System): Its network attached storage. It allows multiple servers to access one data source in a similar way to NAS. 
+
+	# AWS Storage Gateway: It enables hybird storage between on premise environments and AWS Cloud. 
+
+	# AWS Snowball: Its a portable, petabyte storage device. Can be used to migrate data and large amount of data using Snowball device. 
+
+
+
+#AWS Database:
+  
+
+	# RDS (Relational Database Service): Can launch RDMS database servers like MySQL.. ORACLE.. MSSQL
+
+	# DynamoDB: Its a NoSQL database as serverless service.
+
+	# Redshift: Is a fast fully managed petabytes scale data warehouse that is based upon the PostGRE SQL database engine. 
+
+	# ElasticCache: is an in-memory data store or cache in the cloud. Its allows to retrive information form fast fully. 
+
+	# DMS (Database Migration Services): It migrate data from one database engine type to another differnet database engine type. 
+
+	# Neptune: Is a fast reliable fully managed graph database engine optimized for storing billions of relationships.
+
