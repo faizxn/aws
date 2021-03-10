@@ -1,0 +1,61 @@
+
+##Storage:
+
+	+ S3	: Object storage built to store and  retrieve any amount of data, at any time, from anywhere on the web. 
+Its a serverless service. We dont need to worry what behides it. We need to create things called BUCKET. 
+Upload OBJECT to BUCKET. The size of that BUCKET is theoretically unlimited.	
+
+	+ Glacier	: is cheapest storage service on AWS. Its used to long term archiving of data. Its also serverless service. 
+Its not directly accessable. We can setup lifecycle rule that will automatically migrate old data from S3. 
+
+	+ EBS (Elastic Block Storage)	:   Low latency block storage and specifically for attaching to servers.Its similiar to attaching HardDisk. 
+	+ EFS (Elastic File System)	: Its network attached storage. It allows multiple servers to access one data source in a similar way to NAS. 
+	+ Storage Gateway	: It enables hybird storage between on premise environments and AWS Cloud. 
+	+ Snowball	: Its a portable.. petabyte storage device. Can be used to migrate data and large amount of data using Snowball device. 
+
+
+
+
+##Database:
+  
+	+ RDS (Relational Database Service)	: Can launch RDMS database servers like MySQL.. ORACLE.. MSSQL
+	+ DynamoDB	: Its a NoSQL database as serverless service.
+	+ Redshift	: Is a fast fully managed petabytes scale data warehouse that is based upon the PostGRE SQL database engine. 
+	+ ElasticCache	: is an in-memory data store or cache in the cloud. Its allows to retrive information form fast fully. 
+	+ DMS (Database Migration Services)	: It migrate data from one database engine type to another differnet database engine type. 
+	+ Neptune	: Is a fast reliable fully managed graph database engine optimized for storing billions of relationships.
+
+
+
+
+##Compute Services:
+
+	+ EC2: 
+	+ EC2 AutoScaling	:  Allow to dynamically scale EC2 capability according to conditions that we define.
+	+ Amazon Lightsail	:  Its a easiest way to launch virtual servers runing application in AWS cloud.  AWS will provision everything 
+what we need including DNS management and storage to get up and running as quickly as possible.
+
+	+ ECS (Elastic Container Service)	: Its highly scalable high performence container management for Docker containers. 
+It will run on a managed cluster of EC2 instances. 
+	+ Lambda	: Is a serverless service and we just upload the code and AWS takes care of everything. 
+
+
+
+##Networking and Content Delivery:
+
+	+ CloudFront	:  Is a global content delivery network or CDN requested content to over 100 edge locations across the latency and high transfer speeds. 
+It also provides aganist DdoS attacks. 
+	
+	+ VPC	: We can launch AWS resources in that virtual network. Its private space. No one can enter without permissions.
+	+ Direct Connect: Is a high-speed dedicated network connection to AWS. Enterprises can use it to establish private connection to AWS cloud.    
+	
+	+ ELB (Elastic Load Balancer)	: Incoming traffic for application across multiple EC2 instances and also multiple availability zones. 
+If AZ goes down, traffic will continue responses to requests. It allows to achieve high availability and fault tolerance by distributing traffic among instances.
+	
+	+ Route 53	: Amazon route 53 is highly available and scalable domain name system.
+	+ API Gateway	: Is a fully managed service that makes easy for developers to create and deploy secure API at any scale. 
+Its a serverless service as we dont need to worry about underlying infrastructure. 
+
+
+
+
